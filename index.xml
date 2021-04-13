@@ -2,9 +2,55 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>D&#39;roll </title>
-    <link>http://dr011.github.io/</link>
+    <link>https://droll.kr/</link>
     <description>Recent content on D&#39;roll </description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="http://dr011.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language>
+    <lastBuildDate>Mon, 05 Apr 2021 17:37:43 +0900</lastBuildDate><atom:link href="https://droll.kr/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>B</title>
+      <link>https://droll.kr/b/</link>
+      <pubDate>Tue, 13 Apr 2021 11:21:54 +0900</pubDate>
+      
+      <guid>https://droll.kr/b/</guid>
+      <description>이 페이지는 B 마크다운 문서야</description>
+    </item>
+    
+    <item>
+      <title>Post_book</title>
+      <link>https://droll.kr/posts/post_book/</link>
+      <pubDate>Mon, 05 Apr 2021 17:37:43 +0900</pubDate>
+      
+      <guid>https://droll.kr/posts/post_book/</guid>
+      <description>   </description>
+    </item>
+    
+    <item>
+      <title>a</title>
+      <link>https://droll.kr/c/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://droll.kr/c/</guid>
+      <description>이 페이지는 A 마크다운 문서야
+    </description>
+    </item>
+    
+    <item>
+      <title>영상 아카이브 페이지</title>
+      <link>https://droll.kr/a/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://droll.kr/a/</guid>
+      <description>디롤 비디오아트 스튜디오의 영상 아카이브 페이지입니다.
+       
+     
+ 디롤 비디오아트 스튜디오에 궁금하신 점이 있으시면 언제든지 연락주세요.
+질문하신 분야의 실무자 또는 담당자가 답변 드리겠습니다.
+     NEW MEDIA DRECTOR 한 승 훈 (굿판 / GooFun)
+E dir.goodfun@gmail.com
+M 010.3879.1435
+    </description>
+    </item>
+    
   </channel>
 </rss>
