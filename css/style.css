@@ -22,7 +22,7 @@ body {
   height: 100%;
   position: relative;
 }
-<iframe  frameborder="0" style=" position: fixed; right: 0; bottom: 0; min-width: 100%; min-height: 100%; " src="https://sandbox.cables.gl/viewer/5eed3e33a0f60908b25499df"></iframe>
+
 a {
   color: #52d3aa;
   -webkit-transition: 0.5s;
@@ -30,7 +30,7 @@ a {
   transition: 0.5s;
 }
 a:hover, a:active, a:focus {
-  color: #52d3aa;
+  color: #6cd352;
   outline: none;
 }
 
@@ -378,6 +378,13 @@ h1, h2, h3, h4, h5, h6 {
   color: #fff;
   overflow: hidden;
 }
+
+/* =======================================================
+*
+* 	 배경 수정  
+*	
+*
+* ======================================================= */
 #fh5co-home .gradient {
   position: absolute;
   top: 0;
@@ -387,15 +394,16 @@ h1, h2, h3, h4, h5, h6 {
   z-index: 2;
   opacity: .9;
   -webkit-backface-visibility: hidden;
-  background-color: #52d3aa;
-  /* IE9, iOS 3.2+ */
+  background-color: #7783df;
+  
+  /* IE9, iOS 3.2+  메인 상단 히로 수정 */
   background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIHZpZXdCb3g9IjAgMCAxIDEiIHByZXNlcnZlQXNwZWN0UmF0aW89Im5vbmUiPjxsaW5lYXJHcmFkaWVudCBpZD0idnNnZyIgZ3JhZGllbnRVbml0cz0idXNlclNwYWNlT25Vc2UiIHgxPSIwJSIgeTE9IjAlIiB4Mj0iMTAwJSIgeTI9IjEwMCUiPjxzdG9wIHN0b3AtY29sb3I9IiMzZjk1ZWEiIHN0b3Atb3BhY2l0eT0iMSIgb2Zmc2V0PSIwIi8+PHN0b3Agc3RvcC1jb2xvcj0iIzUyZDNhYSIgc3RvcC1vcGFjaXR5PSIxIiBvZmZzZXQ9IjEiLz48L2xpbmVhckdyYWRpZW50PjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxIiBoZWlnaHQ9IjEiIGZpbGw9InVybCgjdnNnZykiIC8+PC9zdmc+);
-  background-image: -webkit-gradient(linear, 0% 0%, 100% 100%, color-stop(0, #3f95ea), color-stop(1, #52d3aa));
+  background-image: -webkit-gradient(linear, 0% 0%, 100% 100%, color-stop(0, #7783df), color-stop(1, ##11074e));
   /* Android 2.3 */
-  background-image: -webkit-repeating-linear-gradient(top left, #3f95ea 0%, #52d3aa 100%);
+  background-image: -webkit-repeating-linear-gradient(top left,  #7783df 0%, #11074e 100% );
   /* IE10+ */
-  background-image: repeating-linear-gradient(to bottom right, #3f95ea 0%, #52d3aa 100%);
-  background-image: -ms-repeating-linear-gradient(top left, #3f95ea 0%, #52d3aa 100%);
+  background-image: repeating-linear-gradient(to bottom right,#7783df 0%, #11074e 100%);
+  background-image: -ms-repeating-linear-gradient(top left,#7783df 0%, #11074e 100%);
 }
 #fh5co-home, #fh5co-home .text-wrap {
   height: 900px;
@@ -629,15 +637,15 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #fh5co-services {
-  background-color: #52d3aa;
-  /* IE9, iOS 3.2+ */
+  background-color: #7783df;
+  /* IE9, iOS 3.2+ -------------------------------------------------------------- 서비스 배경 수정 */
   background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIHZpZXdCb3g9IjAgMCAxIDEiIHByZXNlcnZlQXNwZWN0UmF0aW89Im5vbmUiPjxsaW5lYXJHcmFkaWVudCBpZD0idnNnZyIgZ3JhZGllbnRVbml0cz0idXNlclNwYWNlT25Vc2UiIHgxPSIwJSIgeTE9IjAlIiB4Mj0iMTAwJSIgeTI9IjEwMCUiPjxzdG9wIHN0b3AtY29sb3I9IiMzZjk1ZWEiIHN0b3Atb3BhY2l0eT0iMSIgb2Zmc2V0PSIwIi8+PHN0b3Agc3RvcC1jb2xvcj0iIzUyZDNhYSIgc3RvcC1vcGFjaXR5PSIxIiBvZmZzZXQ9IjEiLz48L2xpbmVhckdyYWRpZW50PjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxIiBoZWlnaHQ9IjEiIGZpbGw9InVybCgjdnNnZykiIC8+PC9zdmc+);
-  background-image: -webkit-gradient(linear, 0% 0%, 100% 100%, color-stop(0, #3f95ea), color-stop(1, #52d3aa));
+  background-image: -webkit-gradient(linear, 0% 0%, 100% 100%, color-stop(0, #7783df), color-stop(1, #11074e));
   /* Android 2.3 */
-  background-image: -webkit-repeating-linear-gradient(top left, #3f95ea 0%, #52d3aa 100%);
+  background-image: -webkit-repeating-linear-gradient(top left,   #7783df 0%, #11074e 100%);
   /* IE10+ */
-  background-image: repeating-linear-gradient(to bottom right, #3f95ea 0%, #52d3aa 100%);
-  background-image: -ms-repeating-linear-gradient(top left, #3f95ea 0%, #52d3aa 100%);
+  background-image: repeating-linear-gradient(to bottom right, #7783df 0%, #11074e 100%);
+  background-image: -ms-repeating-linear-gradient(top left,   #7783df 0%, #11074e 100%);
   overflow: hidden;
   position: relative;
   color: rgba(255, 255, 255, 0.7);
@@ -862,15 +870,15 @@ h1, h2, h3, h4, h5, h6 {
   overflow: hidden;
   position: relative;
   color: rgba(255, 255, 255, 0.8);
-  background-color: #52d3aa;
+  background-color: #7783df;
   /* IE9, iOS 3.2+ */
   background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIHZpZXdCb3g9IjAgMCAxIDEiIHByZXNlcnZlQXNwZWN0UmF0aW89Im5vbmUiPjxsaW5lYXJHcmFkaWVudCBpZD0idnNnZyIgZ3JhZGllbnRVbml0cz0idXNlclNwYWNlT25Vc2UiIHgxPSIwJSIgeTE9IjAlIiB4Mj0iMTAwJSIgeTI9IjEwMCUiPjxzdG9wIHN0b3AtY29sb3I9IiMzZjk1ZWEiIHN0b3Atb3BhY2l0eT0iMSIgb2Zmc2V0PSIwIi8+PHN0b3Agc3RvcC1jb2xvcj0iIzUyZDNhYSIgc3RvcC1vcGFjaXR5PSIxIiBvZmZzZXQ9IjEiLz48L2xpbmVhckdyYWRpZW50PjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxIiBoZWlnaHQ9IjEiIGZpbGw9InVybCgjdnNnZykiIC8+PC9zdmc+);
-  background-image: -webkit-gradient(linear, 0% 0%, 100% 100%, color-stop(0, #3f95ea), color-stop(1, #52d3aa));
+  background-image: -webkit-gradient(linear, 0% 0%, 100% 100%, color-stop(0, #7783df), color-stop(1, #11074e));
   /* Android 2.3 */
-  background-image: -webkit-repeating-linear-gradient(top left, #3f95ea 0%, #52d3aa 100%);
+  background-image: -webkit-repeating-linear-gradient(top left, #7783df 0%, #11074e 100%);
   /* IE10+ */
-  background-image: repeating-linear-gradient(to bottom right, #3f95ea 0%, #52d3aa 100%);
-  background-image: -ms-repeating-linear-gradient(top left, #3f95ea 0%, #52d3aa 100%);
+  background-image: repeating-linear-gradient(to bottom right, #7783df 0%, #11074e 100%);
+  background-image: -ms-repeating-linear-gradient(top left,  #7783df 0%, #11074e 100%);
 }
 #fh5co-work a {
   color: rgba(255, 255, 255, 0.5);
@@ -1402,8 +1410,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .fh5co-animated {
-  -webkit-animation-duration: .3s;
-  animation-duration: .3s;
+  -webkit-animation-duration: .2s;
+  animation-duration: .2s;
   -webkit-animation-fill-mode: both;
   animation-fill-mode: both;
 }
