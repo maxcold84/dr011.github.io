@@ -63,11 +63,12 @@
 
     
     <script src="js/modernizr-2.6.2.min.js"></script>
+   
     
     
 
     </head>
-	
+   
     <body>
             <header role="banner" id="fh5co-header">
         <div class="container">
@@ -112,13 +113,59 @@
 </header>
 
 	
-			<section id="fh5co-home" data-section="home"style="background-image: url(images/full_image_2.jpg);" data-stellar-background-ratio="0.5">
-		<div class="gradient"></div>
+		
+
+<section id="fh5co-home" data-section="home"style="background-image: url(images/full_image_2.jpg);" data-stellar-background-ratio="0.3">
+		<div class="gradient">
+			
+		
+<body>
+    <canvas id="glcanvas" width="100vw" height="100vh" tabindex="1"></canvas>
+
+
+    <script type="text/javascript" src="js/patch.js" async></script>
+ 
+
+    <script>
+
+        
+        document.getElementById('glcanvas').addEventListener('touchmove', (e)=>{ e.preventDefault(); }, false);
+
+
+        function patchInitialized(patch) {
+            
+        }
+
+        function patchFinishedLoading(patch) {
+            
+        }
+
+        document.addEventListener('CABLES.jsLoaded', function (event) {
+            CABLES.patch = new CABLES.Patch({
+                patch: CABLES.exportedPatch,
+                prefixAssetPath: '',
+                glCanvasId: 'glcanvas',
+                glCanvasResizeToWindow: true,
+                onPatchLoaded: patchInitialized,
+                onFinishedLoading: patchFinishedLoading,
+            });
+        });
+    </script>
+</body>
+
+</html>
+			
+</div>
+
+<div class= "bus">
+
+</div>
+
 		<div class="container">
 
 			
-			<iframe  frameborder="0" style=" position: absolute; right: 0; bottom: 0; min-width: 100%; min-height: 100%; " src="https://sandbox.cables.gl/viewer/5c5cefda88d5bc526dca7749"></iframe>
-			
+			 </div>
+
 			<div class="text-wrap">
 				<div class="text-inner">
 					<div class="row">
@@ -132,6 +179,8 @@
 		</div>
 		<div class="slant"></div>
 	</section>
+
+	
 		
         	<section id="fh5co-intro">
 		<div class="container">
@@ -427,9 +476,13 @@
 	<script src="js/jquery.magnific-popup.min.js"></script>
 	<script src="js/magnific-popup-options.js"></script>
 	
+	<script src="js/leaflet.js"></script>
+	<script src="js/leaflet-map.js"></script>
+
+	
 	
 	<script src="js/main.js"></script>
-
     </body>
 </html>
+
 

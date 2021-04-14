@@ -381,11 +381,35 @@ h1, h2, h3, h4, h5, h6 {
 
 /* =======================================================
 *
+* 	 BUS 커스텀   
+*	
+*
+* ======================================================= */
+#fh5co-home .bus {
+
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 2;
+  opacity: .9;
+  -webkit-backface-visibility: hidden;
+  background-color: #7783df;
+}
+
+
+/* =======================================================
+*
 * 	 배경 수정  
 *	
 *
 * ======================================================= */
-#fh5co-home .gradient {
+#fh5co-home .bus {
+
+}
+
+  #fh5co-home .gradient {
   position: absolute;
   top: 0;
   bottom: 0;
