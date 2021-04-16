@@ -68,7 +68,7 @@
     
 
     </head>
-   
+  
     <body>
             <header role="banner" id="fh5co-header">
         <div class="container">
@@ -119,46 +119,40 @@
 		<div class="gradient">
 			
 		
-<body>
-    <canvas id="glcanvas" width="100vw" height="100vh" tabindex="1"></canvas>
-
-
-    <script type="text/javascript" src="js/patch.js" async></script>
- 
-
-    <script>
-
-        
-        document.getElementById('glcanvas').addEventListener('touchmove', (e)=>{ e.preventDefault(); }, false);
-
-
-        function patchInitialized(patch) {
-            
-        }
-
-        function patchFinishedLoading(patch) {
-            
-        }
-
-        document.addEventListener('CABLES.jsLoaded', function (event) {
-            CABLES.patch = new CABLES.Patch({
-                patch: CABLES.exportedPatch,
-                prefixAssetPath: '',
-                glCanvasId: 'glcanvas',
-                glCanvasResizeToWindow: true,
-                onPatchLoaded: patchInitialized,
-                onFinishedLoading: patchFinishedLoading,
-            });
-        });
-    </script>
-</body>
-
-</html>
-			
+	 
 </div>
 
 <div class= "bus">
 
+<canvas id="glcanvas" width="100vw" height="100vh" tabindex="1"></canvas>
+
+
+<script type="text/javascript" src="js/patch.js" async></script>
+
+<script>
+
+
+
+    function patchInitialized(patch) {
+        
+        
+    }
+
+    function patchFinishedLoading(patch) {
+        
+    }
+
+    document.addEventListener('CABLES.jsLoaded', function (event) {
+        CABLES.patch = new CABLES.Patch({
+            patch: CABLES.exportedPatch,
+         
+           
+            glCanvasResizeToWindow: true, 
+           
+           
+        });
+    });
+</script>
 </div>
 
 		<div class="container">
