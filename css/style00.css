@@ -9,7 +9,7 @@
 *
 * 	Template Style 
 *	Edit this section
-* 박스 안쪽 글자색
+*
 * ======================================================= */
 body {
   font-family: "Source Sans Pro", Arial, sans-serif;
@@ -45,20 +45,13 @@ a {
 * ======================================================= */
 
 a:hover, a:active, a:focus {
-  color: #016863;
+  color: #000000;
   outline: none;
 }
 
 p {
   margin-bottom: 1.5em;
 }
-
-  /* =======================================================
-*
-*             매인 박스 두꺼운 글자 색 
-*	   
-*                       
-* ======================================================= */
 
 h1, h2, h3, h4, h5, h6 {
   color: #000;
@@ -1159,7 +1152,7 @@ h1, h2, h3, h4, h5, h6 {
   /* =======================================================
 *
 * 	 
-*	   버튼 인터렉션 / 색변환
+*	   
 *                       #4a8a7e
 * ======================================================= */
 .form-control:active, .form-control:focus {
@@ -1384,12 +1377,7 @@ h1, h2, h3, h4, h5, h6 {
     display: block;
   }
 }
-  /* =======================================================
-*
-* 	 
-*	  카피라이트 글자 색
-*                    
-* ======================================================= */
+
 #footer {
   padding: 50px 0;
   color: #7f7f7f;
@@ -1449,7 +1437,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 .btn.btn-primary:hover, .btn.btn-primary:active, .btn.btn-primary:focus {
   box-shadow: none;
-  background: #43dfad;
+  background: #52d3aa;
 }
 .btn:hover, .btn:active, .btn:focus {
   background: #393e46 !important;
