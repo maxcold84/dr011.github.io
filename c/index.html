@@ -3,35 +3,41 @@
    <head>
     <meta charset="utf-8">
     <title>Document</title>
-   
-      <style>
-        body{  margin-top: 0px; background:rgb(109, 109, 109); }
 
-         #content{ position:relative; top:0px; color:rgb(231, 231, 231); text-shadow:rgb(5, 0, 48) 1px 2px; }
+      <style>
+        body{ margin-top: 0px; background-image: repeating-linear-gradient(to bottom right, #181818 0%, #b8b8b8 100%); }
+
+         #content{ position:relative; top:0px; color:rgb(231, 231, 231); text-shadow:rgb(5, 0, 48) 0.5px 1px; }
    
-         #dodo { width: 99%; vertical-align: middle; text-align: center; position: relative; }
-         #min { padding : 15%; }
+         #dodo { width: 100%; vertical-align: middle; text-align: center; position: relative; 
+                 color:rgb(233, 233, 233); text-shadow:rgb(26, 19, 121) 0.5px 0.8px; }
+         
+                 #doo { width: 100%; vertical-align: middle; text-align: center; position: relative; 
+                 color:rgb(224, 224, 224); }
+
+                 #min { padding :3% ; margin: 0px 15% 5% 15%;  border: 17px solid rgb(192, 192, 192);  }
         .opa { }
 
-        .article { background-color: #202020;	width: 100%; height:110px; border: 20px solid #202020; opacity: 0.9; }
-        .hm { position: sticky; top: 0px;  opacity: 0.1;}
+        .ending { background-color: #ffffff;	width: 100%; height:180px; border: 10px solid #ffffff; opacity: 0.9; }
 
+        .h00 { position: sticky; top: 0px; opacity: 0.3;}
+        
       </style>
 
-        <div id="content">
+        
   </head>
 
 
 
 <body> 
 
-    <div class= "hm">
-    
+    <div class= "h00">
+      
       <!DOCTYPE html>
 <html lang="en">
 
 <head>
-    <title>Ludwig</title>
+  
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1">
     <meta itemprop="name" content="Ludwig">
@@ -43,15 +49,15 @@
         body {
             margin: 0;
            
-            color: #fff;
+            color: rgb(0, 0, 0);
             font-family: Helvetica, Arial, sans-serif;
             overflow: auto;  
         }
 
         canvas {
-            display: table; 
-            position: absolute;
-            outline: 0;
+            
+            position: absolute; 
+            
         }
 
         * {
@@ -68,39 +74,42 @@
 
 </head>
 
+
 <body>
-    <canvas id="glcanvas" width="100%" height="100%" tabindex="1"></canvas>
-   
-
- 
-    <script type="text/javascript" src="../js/patch.js" async></script>
 
 
-    <script>
+<canvas id="glcanvas" width="100%" height="100%" tabindex="1">
 
+
+<script type="text/javascript" src="../js/patch.js" async></script>
+
+<script>
+
+  
+  document.getElementById('glcanvas').addEventListener('touchmove', (e)=>{ e.preventDefault(); }, true);
+
+
+
+    function patchInitialized(patch) {
         
-        document.getElementById('glcanvas').addEventListener('touchmove', (e)=>{ e.preventDefault(); }, false);
+        
+    }
 
+    function patchFinishedLoading(patch) {
+        
+    }
 
-        function patchInitialized(patch) {
-            
-        }
-
-        function patchFinishedLoading(patch) {
-            
-        }
-
-        document.addEventListener('CABLES.jsLoaded', function (event) {
-            CABLES.patch = new CABLES.Patch({
-                patch: CABLES.exportedPatch,
-                prefixAssetPath: '',
-                glCanvasId: 'glcanvas',
-                glCanvasResizeToWindow: true,
-                onPatchLoaded: patchInitialized,
-                onFinishedLoading: patchFinishedLoading,
-            });
+    document.addEventListener('CABLES.jsLoaded', function (event) {
+        CABLES.patch = new CABLES.Patch({
+            patch: CABLES.exportedPatch,
+           
+           
+            glCanvasResizeToWindow: true, 
+           
+           
         });
-    </script>
+    });
+</script>
 </body>
 
 </html>
@@ -109,10 +118,12 @@
     </div>
 
    <div id="dodo">
-      <h3>Digital Roll NEW MEDIA ART Agency</h3>
+    <br>
+      <h1>D'roll</h1>
+      <h5>Digital Roll _ NEW MEDIA ART Agency</h5>
    </div>
 
- <hr style="width:50%; height:10px;border-width:0;background-color:rgb(119, 119, 119)">
+   <div id="content">
  
    <div id="min">
      
@@ -131,15 +142,15 @@
 
 
               </div>
- <hr style="width:90%; height:1px;border-width:0;color:gray;background-color:rgb(243, 243, 243)">
+ <hr style="width:25%; height:1px;border-width:0;color:gray;background-color:gray">
 
-   <div id="dodo">
+   <div id="doo">
 
  <br> <nav>
-  <a href="/">HOME</a> | <a href="https://droll.kr/">CF</a> | <a href="https://droll.kr/">Viral</a> | <a href="https://droll.kr/">Gallery</a>
+  <a href="/">HOME</a> | <a href="/">CF</a> | <a href="/">Viral</a> | <a href="/">Gallery</a>
  </nav>
  
- <br> <hr style="width:50%; height:1px;border-width:0;color:gray;background-color:gray">
+ <br> <hr style="width:25%; height:1px;border-width:0;color:gray;background-color:gray">
 
  <form action="/action_page.php">
   <label for="cars">HOME:</label>
@@ -154,15 +165,14 @@
     </optgroup>
   </select>
   <br><br>
-  <input type="submit" value="Submit">
-  
+
 </form>
 
 <br><br>
 
 </div></div>
 
-<div class="article">
+<div class="ending">
 
 <h2>D'roll</h2>
 
@@ -170,9 +180,6 @@
 
 <h5>Copyright ⓒ 2021 D’roll. All Rights Reserved.</h5>  
 
-
-
-<script src="../js/patch.js"></script>
-
 </body>
 </html>
+

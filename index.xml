@@ -37,6 +37,19 @@
     </item>
     
     <item>
+      <title>Document</title>
+      <link>https://droll.kr/a/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://droll.kr/a/</guid>
+      <description>Video archive   디롤 비디오아트 스튜디오의 영상 아카이브 페이지입니다.     Gallery        CF        
+     D&amp;rsquo;roll 에 궁금하신 점이 있으시면 언제든지 연락주세요.
+질문하신 분야의 실무자 또는 담당자가 답변 드리겠습니다.
+        NEW MEDIA DRECTOR 한 승 훈 (굿판 / GooFun)
+    E dir.</description>
+    </item>
+    
+    <item>
       <title>Project</title>
       <link>https://droll.kr/ar/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -44,19 +57,6 @@
       <guid>https://droll.kr/ar/</guid>
       <description>아라리오 갤러러, 손수광 작가 유작전
   </description>
-    </item>
-    
-    <item>
-      <title>영상 아카이브 페이지</title>
-      <link>https://droll.kr/a/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://droll.kr/a/</guid>
-      <description>Video archive  디롤 비디오아트 스튜디오의 영상 아카이브 페이지입니다.     Gallery       CF       
-    디롤 비디오아트 스튜디오에 궁금하신 점이 있으시면 언제든지 연락주세요.
-질문하신 분야의 실무자 또는 담당자가 답변 드리겠습니다.
-        NEW MEDIA DRECTOR 한 승 훈 (굿판 / GooFun)
-      E dir.</description>
     </item>
     
   </channel>
