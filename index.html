@@ -123,17 +123,7 @@
 <div class= "bus">
 
 <!DOCTYPE html>
-<html lang="en">
-
 <head>
-  
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1">
-    <meta itemprop="name" content="Ludwig">
-    <meta itemprop="description" content="made with cables">
-    <meta itemprop="image" content="screenshot.png">
-    <meta name="description" content="made with cables" />
-
     <style>
         body {
             margin: 0;
@@ -143,62 +133,29 @@
             overflow: auto;  
         }
 
-        canvas {
-            
-            position: absolute; 
-            
-        }
-
-        * {
+        canvas { 
+           position:  absolute;
              
-            -webkit-tap-highlight-color: transparent;
-            -webkit-touch-callout: none;
-            -webkit-user-select: none;
-            -moz-user-select: none;
-            -ms-user-select: none;
-            user-select: none;
         }
-
     </style>
-
 </head>
 
-
 <body>
-
-
 <canvas id="glcanvas" width="100%" height="100%" tabindex="1">
 
-
-<script type="text/javascript" src="../js/patch.js" async></script>
-
 <script>
-
-  
-  document.getElementById('glcanvas').addEventListener('touchmove', (e)=>{ e.preventDefault(); }, true);
-
-
-
-    function patchInitialized(patch) {
-        
-        
-    }
-
-    function patchFinishedLoading(patch) {
-        
-    }
-
     document.addEventListener('CABLES.jsLoaded', function (event) {
         CABLES.patch = new CABLES.Patch({
             patch: CABLES.exportedPatch,
-           
-           
             glCanvasResizeToWindow: true, 
-           
-           
         });
     });
 </script>
+
+
+
+<script type="text/javascript" src="../js/patch.js" async></script> 
+
 </body>
 
 </html>
